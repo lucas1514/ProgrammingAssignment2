@@ -1,8 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+
 ## Write a short comment describing this function
-#this function is intended to calculate the "mean"
+#this function calculates the mean
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -20,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-#this calculates the inverse of "x"
+#now we will calculate the inverse of "X"
 
 cacheSolve <- function(x, ...) {
   inv <- x$getInverse()
